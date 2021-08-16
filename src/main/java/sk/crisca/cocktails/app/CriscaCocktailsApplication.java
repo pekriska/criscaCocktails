@@ -9,7 +9,5 @@ public class CriscaCocktailsApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(CriscaCocktailsApplication.class, args);
 	}
-	//sjydkjjs
-
 
 }
