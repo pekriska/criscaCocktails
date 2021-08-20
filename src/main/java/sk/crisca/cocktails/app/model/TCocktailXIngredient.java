@@ -39,6 +39,44 @@ public class TCocktailXIngredient implements Serializable{
 		super();
 	}
 	
+	
+	
+	public CocktailIngredientId getId() {
+		return id;
+	}
+
+
+
+	public void setId(CocktailIngredientId id) {
+		this.id = id;
+	}
+
+
+
+	public TCocktail getCocktail() {
+		return cocktail;
+	}
+
+
+
+	public void setCocktail(TCocktail cocktail) {
+		this.cocktail = cocktail;
+	}
+
+
+
+	public TIngredient getIngredient() {
+		return ingredient;
+	}
+
+
+
+	public void setIngredient(TIngredient ingredient) {
+		this.ingredient = ingredient;
+	}
+
+
+
 	@Override
 	public int hashCode() {
 		return HashCodeBuilder.reflectionHashCode(this);
