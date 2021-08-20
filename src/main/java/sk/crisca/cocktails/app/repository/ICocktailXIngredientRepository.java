@@ -1,4 +1,4 @@
-package repository;
+package sk.crisca.cocktails.app.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
