@@ -8,19 +8,22 @@ import org.apache.commons.lang3.builder.ToStringBuilder;
 
 public class IngredientsFormModel {
 	
-	private Long[] ingredientsId;
+	private Long[] ingredientIds;
 
 	public IngredientsFormModel() {
 		super();
 	}
 
-	public Long[] getIngredientsId() {
-		return ingredientsId;
+
+	public Long[] getIngredientIds() {
+		return ingredientIds;
 	}
 
-	public void setIngredientsId(Long[] ingredientsId) {
-		this.ingredientsId = ingredientsId;
+
+	public void setIngredientIds(Long[] ingredientIds) {
+		this.ingredientIds = ingredientIds;
 	}
+
 
 	@Override
 	public int hashCode() {
